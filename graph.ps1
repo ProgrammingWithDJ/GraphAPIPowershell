@@ -1,8 +1,8 @@
-$tenantId="22809cb4-512e-4048-840f-e3319a8e6159" #replace with your tenant ID
+$tenantId="" #replace with your tenant ID
 
 $authBody=@{
-    client_id="8f9f420d-606c-4e13-889e-837072dbfb42" #replace with your client ID
-    client_secret="6f40f249-7498-4fec-af6e-534667f3da0f" #replace with your client secret
+    client_id="" #replace with your client ID
+    client_secret="" #replace with your client secret
     scope="https://graph.microsoft.com/.default"
     grant_type="client_credentials"
 }
